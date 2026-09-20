@@ -1,0 +1,19 @@
+# Custom error pages — see 404.php / 403.php / 500.php
+#
+# IMPORTANT: Apache resolves a leading "/" from the SERVER's document root,
+# not from this project's folder. The paths below assume the install path
+# documented in this project's README:
+#   C:\xampp\htdocs\student-management-system
+# If you installed to a different folder name or path, update these three
+# lines to match (e.g. "/my-folder-name/404.php").
+ErrorDocument 404 /student-management-system/404.php
+ErrorDocument 403 /student-management-system/403.php
+ErrorDocument 500 /student-management-system/500.php
+
+# Never list directory contents if there's no index file.
+Options -Indexes
+
+# Block direct access to files that should never be requested directly.
+<FilesMatch "\.(sql|md|log|env)$">
+    Require all denied
+</FilesMatch>

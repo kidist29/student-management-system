@@ -1,0 +1,10 @@
+# Uploaded student/teacher photos are real user data — never commit them.
+assets/uploads/*
+!assets/uploads/.htaccess
+!assets/uploads/.gitkeep
+
+# Local environment artifacts
+.DS_Store
+Thumbs.db
+*.log
+.env
