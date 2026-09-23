@@ -126,12 +126,9 @@ gets a "not found" redirect, not someone else's roster).
 
 ## Demo Accounts
 
-| Role | Email | Password |
-|---|---|---|
-| Super Admin | `admin@sms.edu` | `Admin@123` |
-| Registrar | `registrar@sms.edu` | `Registrar@123` |
-| Teacher | `alemayehu.tesfaye@sms.edu` | `Teacher@123` |
-| Student | `kidist.bekele@student.sms.edu` | `Student@123` |
+Demo accounts are included in the local database for development and testing.
+
+For security, login credentials are not published in this public repository.
 
 ## Screenshots
 
